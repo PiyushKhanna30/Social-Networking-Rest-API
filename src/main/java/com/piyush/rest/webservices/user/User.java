@@ -1,9 +1,9 @@
 package com.piyush.rest.webservices.user;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.validation.constraints.Past;
-import jakarta.validation.constraints.Size;
 
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 import java.time.LocalDate;
 
 public class User {
